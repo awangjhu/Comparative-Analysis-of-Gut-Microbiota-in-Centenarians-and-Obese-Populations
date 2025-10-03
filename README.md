@@ -13,6 +13,7 @@ microbiota transplantation into progeroid mice” (Bárcena et al., Nature Medic
   *(note: although this contains BMI in metadata, we will parse out participants that have a BMI over 30)*
 
 ## Software
+- Kracken (for raw data): https://ccb.jhu.edu/software/kraken/
 - ANCOMBC pipeline (for differential analysis): https://github.com/FrederickHuangLin/ANCOMBC  
 - BugSigDB package (for GO-like analysis): https://bugsigdb.org/Main_Page  
 - SPARCC package (for co-occurrence network): https://github.com/dlegor/SparCC  
