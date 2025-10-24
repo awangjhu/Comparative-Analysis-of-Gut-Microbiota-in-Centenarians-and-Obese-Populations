@@ -1,5 +1,5 @@
 # Check-in 1: Comparative Analysis of Gut Microbiota in Centenarians and Young Populations
-### ALan Wang and Carsten Hoeke
+### Alan Wang and Carsten Hoeke
 ---
 
 ## Addressing Prior Feedback
@@ -35,4 +35,5 @@ Keeping the scale of the project in mind, we would like to generate a pipeline t
 ## References
 
 1. Bárcena C, Valdés-Mas R, Mayoral P, Garabaya C, Durand S, Rodríguez F, Fernández-García MT, Salazar N, Nogacka AM, Garatachea N, Bossut N, Aprahamian F, Lucia A, Kroemer G, Freije JMP, Quirós PM, López-Otín C. Healthspan and lifespan extension by fecal microbiota transplantation into progeroid mice. Nat Med. 2019 Aug;25(8):1234-1242. doi: 10.1038/s41591-019-0504-5. Epub 2019 Jul 22. PMID: 31332389.
+
 
