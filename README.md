@@ -23,7 +23,7 @@ As we have changed the direction of our project, we have made significant progre
 ---
 
 ## Project Organization
-![BUDDY](https://media.discordapp.net/attachments/1413346934118416539/1431128890788675584/Screenshot_2025-10-23_235508.png?ex=68fc4a24&is=68faf8a4&hm=be7c7caf214ac6b696479423cb7de04e8ebba8a9aa0caa4c7a9a9276c40614f8&=&format=webp&quality=lossless)
+![BUDDY](Screenshot_2025-10-23_235508.png)
 
 Our project repository and pipeline, Biological Understanding of the Dysbiosis and Diversity across Years (BUDDY), is used to organize our directory structure, which separates raw data, processed results, and reference database. The krakendb/ folder has the MiniKraken2 reference database and other associated taxonomy files that can be used to help classify specific bacteria. In addition, raw reads are stored in the rawreads folder and Kraken2 classification outputs and reports are placed in the results/ directory, ultimately, included in our R script. As we add Braken into BUDDY, the organization should allow quite streamlined integration to allow for additional and accurate abundance estimate outputs.
 
@@ -39,6 +39,7 @@ Keeping the scale of the project in mind, we would like to generate a pipeline t
 ## References
 
 1. Bárcena C, Valdés-Mas R, Mayoral P, Garabaya C, Durand S, Rodríguez F, Fernández-García MT, Salazar N, Nogacka AM, Garatachea N, Bossut N, Aprahamian F, Lucia A, Kroemer G, Freije JMP, Quirós PM, López-Otín C. Healthspan and lifespan extension by fecal microbiota transplantation into progeroid mice. Nat Med. 2019 Aug;25(8):1234-1242. doi: 10.1038/s41591-019-0504-5. Epub 2019 Jul 22. PMID: 31332389.
+
 
 
 
