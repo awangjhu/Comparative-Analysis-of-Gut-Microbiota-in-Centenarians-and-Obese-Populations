@@ -31,6 +31,7 @@ results_directory <- "~/qbb2025/BUDDYproject/results"
 avg_dir <- "~/qbb2025/BUDDYproject/avg_results"
 
 # Find all centenarian report files
+#Can modulate to jsut csv or just txt depending on if you processed the output file into .csv (see bash scripts file).
 cent_files <- list.files(
   results_directory,
   pattern = "^centenarian_.*_report\\.(csv|txt)$",
