@@ -1,0 +1,4 @@
+ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3501992/S_7G6_1.fq.gz
+ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3501992/S_7G6_2.fq.gz
+ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3502017/S_7G39_1.fq.gz
+ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3502017/S_7G39_2.fq.gz

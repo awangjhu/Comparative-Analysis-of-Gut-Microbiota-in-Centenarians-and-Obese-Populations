@@ -1,0 +1,11 @@
+# Centenarian samples
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3501987/S_7G1_1.fq.gz
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3501987/S_7G1_2.fq.gz
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3502009/S_7G27_1.fq.gz
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3502009/S_7G27_2.fq.gz
+
+# Young samples
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3501996/S_7G12_1.fq.gz
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3501996/S_7G12_2.fq.gz
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3501997/S_7G14_1.fq.gz
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3501997/S_7G14_2.fq.gz
