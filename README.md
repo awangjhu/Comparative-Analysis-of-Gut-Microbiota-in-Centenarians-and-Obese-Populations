@@ -12,9 +12,13 @@ Since the initial project proposal and meeting, we have significantly changed ou
 
 As we have changed the direction of our project, we have made significant progress in establishing and testing our metagenomic analysis workflow. Excitingly, we have successfully created a reproducible pipeline to go from raw data input to final output using Kraken2 for taxonomic classification. The shell script we developed takes raw pair-end FASTQ files downloaded from the public database and automatically generates per-read classification outputs, summarizing the taxonomic report in a text file within the results directory. From the shell script, we also developed an R script that processes the Kraken2 report files by averaging relative abundance across taxa and quantifies the results as a stacked bar chart (Figure 1). Our preliminary test looks at the microbial distribution across two samples, a young individual and centenarian; however, the sample size is currently limited to (n = 1) per group. Another potential limitation with our stacked bar graph is that it may not display all the taxonomic classes or bacterial species which could potentially skew our analysis, as literature suggests there is a loss of microbiota diversity with an increase in age, leading to dysbiosis.1 Despite our current limitations in the script, our preliminary results demonstrate that the pipeline functions correctly and produces interpretable results. Furthermore, it seems like the observed taxonomic profiles, although we have a very limited sample size, show relative decrease in certain bacterial taxa in centenarians compared to younger people. In the future, we would like to use a larger sample size and extend the taxonomic class to the full Kraken database. In addition, we would also like to create trend lines of several candidate bacteria throughout multiple age cohorts rather than strictly centenarians and young populations, perhaps intermediates.
 
-![Figure 1](https://media.discordapp.net/attachments/1413346934118416539/1431101914397020220/test2.png?ex=68fc3104&is=68fadf84&hm=a0202acf4c47e5a0df9270071e0f2c84840281071695dfb8e9ce554d20c65b36&=&format=webp&quality=lossless)
+![Figure 1](figures/averaged_class_composition.png)
 
-**Figure 1.** Class-level taxonomic composition of gut microbiota in a centenarian and a young individual (n = 1) using Kraken2 classification.
+**Figure 1.** Average Class-level taxonomic composition of gut microbiota in a centenarian and a young individual (n = 3) using Kraken2 classification.
+
+![Figure 2](figures/singledata_class_composition.png)
+
+**Figure 2.** Single Class-level taxonomic composition of gut microbiota in a centenarian and a young individual (n = 3) using Kraken2 classification.
 
 ---
 
@@ -35,5 +39,6 @@ Keeping the scale of the project in mind, we would like to generate a pipeline t
 ## References
 
 1. Bárcena C, Valdés-Mas R, Mayoral P, Garabaya C, Durand S, Rodríguez F, Fernández-García MT, Salazar N, Nogacka AM, Garatachea N, Bossut N, Aprahamian F, Lucia A, Kroemer G, Freije JMP, Quirós PM, López-Otín C. Healthspan and lifespan extension by fecal microbiota transplantation into progeroid mice. Nat Med. 2019 Aug;25(8):1234-1242. doi: 10.1038/s41591-019-0504-5. Epub 2019 Jul 22. PMID: 31332389.
+
 
 
